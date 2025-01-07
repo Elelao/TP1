@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://forge.univ-lyon1.fr/p2416132/tiw8-tp1.git",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.21.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.5"
+  },
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  }
+}
